@@ -1,0 +1,9 @@
+name: VueExampleFreeCodeCamp
+services:
+- build_command: npm build
+  environment_slug: node-js
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: cempaydas/VueExampleFreeCodeCamp
+  name: VueExampleFreeCodeCamp
